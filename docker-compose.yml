@@ -1,0 +1,9 @@
+version: '2'
+services:
+  nginx-https-cors:
+    build: .
+    ports:
+      - 443:443
+    environment:
+      # paths for proxy
+      - TARGET1=facebook.com
