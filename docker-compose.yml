@@ -6,4 +6,4 @@ services:
       - 443:443
     environment:
       # paths for proxy
-      - TARGET1=https://facebook.com
+      - TARGET1=https://205.21.2.44/
