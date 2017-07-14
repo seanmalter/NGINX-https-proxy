@@ -5,5 +5,5 @@ services:
     ports:
       - 443:443
     environment:
-      # paths for proxy
-      - TARGET1=https://205.21.2.44/
+      # paths for proxy maybe one day it will work
+      - TARGET1=https://facebook.com/
